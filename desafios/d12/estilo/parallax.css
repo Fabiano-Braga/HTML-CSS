@@ -50,6 +50,7 @@ a:hover {
     text-decoration: underline;
 }
 
+
 #img01 {
     background-image: url('../imagens/background001.jpg');
     background-position: right center;
@@ -72,6 +73,7 @@ section {
 section.conteudo {
     background-color: #ffffff;
     color: #000000;
+    
 }
 
 section.imagem {
