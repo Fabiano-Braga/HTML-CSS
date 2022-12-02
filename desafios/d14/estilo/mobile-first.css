@@ -1,89 +1,55 @@
-@charset "UTF8";
+@charset "utf8";
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-body, html {
-    background-color: #8a2be2;
-    width: 100vw;
-    height: 100vh;
+:root {
+    --principal: #7990EB;
+    --formulario: #41539E;
+    --btn: #9CAFFF;
+    --black: #000000;
+    --white: #ffffff;
 }
 
-main {
-    position: relative;
+html, body {
+    background-color: var(--principal);
     width: 100vw;
     height: 100vh;
+    
 }
 
-section {
+div#img {
+    background-image: url(../imagens/entrada.jpg) ;
+    background-size: cover;
+    background-position: left bottom;
+    
+    height: 200px;
+
+}
+
+section#login {
+    background-color: var(--white);
+    height: 520px;
+    width: 270px;
+    border-radius: 20px;
+    overflow: hidden;
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
-    width: 250px;
-    height: 500px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
 }
 
-#imagem {
-    background-image: url(../imagens/entrada.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left bottom;
-    width: 100%;
-    height: 200px;
-    border-radius: 20px 20px 0px 0px;
-}
-
-#formulario {
-    padding: 10px;
-}
-
-#formulario h1 {
+section#login h1 {
+    font-size: 1.8em;
     text-align: center;
+    padding-bottom: 10px;
+}
+
+section > div#form {
     padding: 10px;
-}
-
-#formulario p {
-    font-size: 0.8rem;
-}
-
-.campo {
-    background-color: #5f2c82;
-    height: 40px;
-    width: 100%;
-    margin: 5px 0px;
-    border-radius: 10px;
-    border: 2px solid #5f2c82;
-    
-    
-}
-.campo > i {
-    color: white;
-    
-}
-
-#ilogin, #isenha {
-  background-color: rgb(130, 228, 195);
-  height: 38px;
-  border-radius: 10px;
-  border: 1px solid #5f2c82;
-  margin-left: 26px;
-}
-
-#entrar {
-    background-color: rgb(60, 139, 113);
-    color: white;
-    width: 100%;
-    height: 40px;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    
 }
