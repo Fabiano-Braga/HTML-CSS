@@ -86,7 +86,7 @@ div.campo {
     outline: none;
     border: 0px;
 
-    transform: translateY(-12px);
+    transform: translateY(-13px);
 }
 
 form > input[type=submit]{
