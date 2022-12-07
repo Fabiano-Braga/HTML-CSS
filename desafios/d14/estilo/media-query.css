@@ -1,13 +1,11 @@
 @charset "UTF8";
 
-@media screen and (max-width:767px) {
-    section#login {
-        transition: width 1s, height 1s;
-        transition-timing-function: cubic-bezier(0.25, 0.1, 0.35, 0.65);
-    }
-}
 
 @media screen and (min-width:768px) and (max-width:992px) {
+
+    html, body {
+        background-image: linear-gradient(to bottom, #21368b, #7990EB);
+    }
     
     section#login {
         width:80vw ;
@@ -30,6 +28,11 @@
 }
 
 @media screen and (min-width: 992px){
+
+    html, body {
+        background-image: linear-gradient(to bottom, #21368b, #7990EB);
+    }
+    
     section#login {
         width: 70%;
         height: 350px;

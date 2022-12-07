@@ -11,8 +11,6 @@
     --principal: #7990EB;
     --formulario: #41539E;
     --btn: #9CAFFF;
-    --black: #000000;
-    --white: #ffffff;
 }
 
 html, body {
@@ -23,7 +21,7 @@ html, body {
 }
 
 section#login {
-    background-color: var(--white);
+    background-color: #ffffff;
     height: 540px;
     width: 270px;
     border-radius: 20px;
@@ -33,6 +31,10 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
+    transition: width .3s, height .3s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.35, 0.65);
+   
 }
 
 section#login h1 {
@@ -70,7 +72,7 @@ div.campo {
 }
 
 #icon1, #icon2 {
-    color: white;
+    color: #ffffff;
     font-size: 2em;
     width: 40px;
     padding: 5px;
@@ -90,19 +92,19 @@ div.campo {
 }
 
 #isenha:focus, #iemail:focus {
-    background-color: white ;
+    background-color: #ffffff ;
    
 }
 
 form > input[type=submit]{
-    font: 1.2em solid var(--white);
+    font: 1.2em solid #ffffff;
     height: 40px;
     width: 100%;
     border-radius: 5px ;
     border: none;
     font: 1.3em bolder ;
     background-color: var(--btn);
-    color: white
+    color: #ffffff
 }
 
 input[type=submit]:hover {
