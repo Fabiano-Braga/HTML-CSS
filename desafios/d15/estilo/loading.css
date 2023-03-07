@@ -35,22 +35,22 @@ body {
 @keyframes ring {
     0%{
         transform: rotate(0deg);
-        box-shadow: 1px 5px 2px #e65c00;
+        box-shadow: 1px 5px 2px #3941B3;
     }
 
     50% {
         transform: rotate(180deg);
-        box-shadow: 1px 5px 2px #18b201;
+        box-shadow: 1px 5px 2px #FFAA85;
     }
 
     100% {
         transform: rotate(360deg);
-        box-shadow: 1px 5px 2px #0456c8;
+        box-shadow: 1px 5px 2px #18b201;
     }
 }
 
 span {
-    color: #737373;
+    color: wheat;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -63,3 +63,5 @@ span {
         color:#000000
     }
 }
+
+
