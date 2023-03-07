@@ -20,12 +20,13 @@ body {
 }
 
 .ring::before {
+   
     position: absolute;
     content: '';
     left: 0;
     top: 0;
     height: 100%;
-    width: 100%;
+    width:100%;
     border-radius: 50%;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
     animation: ring 2s linear infinite;
@@ -49,16 +50,16 @@ body {
 }
 
 span {
-    color: wheat;
+    color: #737373;
     font-size: 20px;
-    letter-spacing: 3px;
     text-transform: uppercase;
+    letter-spacing: 3px;
     line-height: 200px;
     animation: text 3s ease-in-out infinite;
 }
 
 @keyframes text {
     50% {
-        color: #000000;
+        color:#000000
     }
 }
