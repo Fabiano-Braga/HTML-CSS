@@ -21,7 +21,7 @@
 
 html {
     scroll-behavior: smooth;
-    font: 62.5%;
+    font-size: 62.5%;
 }
 
 body {
@@ -97,8 +97,15 @@ h6 {
     display: flex;
 }
 
-.menu a {
-    text-decoration:none;
-
+.menu ul li a {
+    
 }
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+
 
