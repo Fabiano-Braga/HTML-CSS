@@ -60,6 +60,7 @@ h6 {
     font-size: 3.5rem;
 }
 
+
 .main-content {
     margin: 0 auto;
     padding: var(--gap);
@@ -97,14 +98,17 @@ h6 {
     display: flex;
 }
 
-.menu ul li a {
-    
-}
-
 .menu a {
     display: block;
     text-decoration: none;
     text-align: center;
+}
+
+.menu ul li a {
+    padding: 2rem;
+    font-size: 1.8rem;
+    font-style: italic;
+    color: #000000;
 }
 
 
