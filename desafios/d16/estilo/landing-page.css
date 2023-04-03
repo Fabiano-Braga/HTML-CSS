@@ -28,8 +28,6 @@ body {
     font-size: 1.6rem;
     line-height: 4rem;
     font-family: var(--texto);
-    height: 100vh;
-    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,11 +59,6 @@ h6 {
     font-size: 3.5rem;
 }
 
-.teste {
-    height: 100vh;
-}
-
-
 .main-content {
     margin: 0 auto;
     padding: var(--gap);
@@ -78,8 +71,9 @@ h6 {
     top: 0;
     left: 0;
     right: 0;
-    border-bottom: 0.1rem solid var(--ligth-gray-color);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.548);
 }
+
 
 .menu-content {
     display: flex;
@@ -120,7 +114,6 @@ h6 {
     padding: 2rem;
     font-size: 1.8rem;
     font-style: italic;
-    color: #000000;
     position: relative;
     text-transform: uppercase;
     letter-spacing: 0.7rem;
@@ -139,10 +132,25 @@ h6 {
 }
 
 .menu ul li a:hover::after {
-    left: 25%;
-    width: 50%;
+    left: 15%;
+    width: 70%;
 }
 
+.home {
+    background-image: url(../img/confetti-doodles\ \(1\).svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.white-bg {
+    height: 100vh;
+    
+}
+
+
+    
 
 
 
