@@ -1,6 +1,6 @@
 @charset "UTF8";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300, 400, 700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
@@ -146,7 +146,7 @@ h6 {
 }
 
 .container {
-    padding: 10rem;
+    padding-left: 16.5rem;
     line-height: 9rem;
     color: #ffffff;
     display: flex;
@@ -155,10 +155,40 @@ h6 {
     height: 100%;
 }
 
+.text-content {
+    padding-bottom: 3rem;
+}
+
+.text-content h1 {
+    font-size: 7rem;
+    font-family: var(--titulo);
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+}
 
 .btn-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 2.5rem;
+    width: 30rem;
+    height: 7rem;
+    border: 2px solid var(--secundary-color);
+    letter-spacing: 0.3rem;
+    transition: background-color 0.2s ease;
+    
+}
+
+.btn-portfolio:hover {
+    background-color: var(--secundary-color);
+    
+}
+
+.btn-portfolio a {
+    text-decoration: none;
+    color: inherit;
 }
 .white-bg {
     height: 100vh;
