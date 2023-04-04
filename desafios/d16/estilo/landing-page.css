@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 6rem;
-    text-transform: uppercase;
+    
 }
 
 h2 {
@@ -87,10 +87,11 @@ h6 {
     font-family: var(--titulo);
     font-size: 3rem;
     color: var(--white-color);
+    text-transform: uppercase;
 }
 
 
-.menu-content span {
+ span {
     color: var(--secundary-color);
 }
 
@@ -144,6 +145,21 @@ h6 {
     height: 100vh;
 }
 
+.container {
+    padding: 10rem;
+    line-height: 9rem;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.btn-portfolio {
+    text-transform: uppercase;
+    font-size: 4rem;
+}
 .white-bg {
     height: 100vh;
     
