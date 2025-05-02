@@ -4,75 +4,238 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercícios de HTML-CSS</title>
-   <link rel="stylesheet" href="style.css">
+    <title>Portfólio HTML/CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-    <main>
-        <h1>Exercícios de HTML e CSS</h1>
-        <h2>Nível básico</h2>
-        <ul>
-            <li>
-                <a href="d01/index.html"><strong>EX01:</strong></a> Desafio das mensagens
-            </li>
-            <li>
-                <a href="d02/desafio002.html"><strong>EX02:</strong></a> Desafio das imagens
-            </li>
-            <li>
-                <a href="d03/desafio003.html"><strong>EX03:</strong></a> Desafio do mapa (sem responsividade)
-            </li>
-            <li>
-                <a href="d04/desafio004.html"><strong>EX04:</strong></a> Desafio dos emojis
-            </li>
-            <li>
-                <a href="d05/desafio005.html"><strong>EX05:</strong></a> Desafio minhas redes sociais
-            </li>
-            <li>
-                <a href="d06/desafio006.html"><strong>EX06:</strong></a> Desafio da tag  &lt;abbr&gt;
-            </li>
-            <li>
-                <a href="d07/desafio007-imagens-flexiveis.html"><strong>EX07:</strong></a> Desafio imagens flexíveis 
-            </li>
-            <li>
-                <a href="d08/desafio008-navegacoes.html"><strong>EX08:</strong></a> Desafio navegações entre páginas
-            </li>
-            <li>
-                <a href="d09/index.html"><strong>EX09:</strong></a> Desafio da tag âncora
-            </li>
-
-            <li>
-                <a href="d10/index.html"><strong>EX10:</strong></a> Desafio final - Juntando todo conhecimento
-            </li>
-            <li>
-                <a href="d11/index.html"><strong>EX11:</strong></a> Desafio imagem de fundo e posicionamento de container.
-            </li>
-
-        </ul>
-
-        <h2> Nível intermediário</h2>
-        <ul>
-            <li>
-                <a href="d12/index.html" target="_blank" ><strong>EX12:</strong></a> Projeto Parallax.
-            </li>
-            <li>
-                <a href="d13/index.html" target="_blank"><strong>EX13:</strong></a> Projeto Midias sociais.
-            </li>
-            <li>
-                <a href="d14/index.html" target="_blank"><strong>EX14:</strong></a> Projeto tela de login.
-            </li>
-            <li>
-                <a href="d15/loading.html"><strong>EX15:</strong></a> Projeto animação de loading.
-            </li>
-
-            <li>
-                <a href="d16/landing-page.html"><strong>EX16:</strong></a> Landing Page. ( Em andamento. )
-            </li>
-        </ul>
-
-
+    <div class="container">
+        <header>
+            <h1>Portfólio HTML/CSS</h1>
+            <p class="subtitle">Projetos e Desafios de Marcação e Estilização</p>
+            <p class="intro-text">
+                Uma coleção de projetos desenvolvidos para aprimorar habilidades em HTML5 e CSS3, 
+                explorando desde conceitos fundamentais até técnicas mais avançadas.
+            </p>
+        </header>
         
-
-    </main>
-    
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">01</span>
+                    <h3 class="project-title">Mensagens Estruturadas</h3>
+                </div>
+                <div class="project-description">
+                    Desafio de organização de mensagens utilizando hierarquia de elementos HTML.
+                </div>
+                <div class="project-footer">
+                    <a href="d01/index.html" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">02</span>
+                    <h3 class="project-title">Galeria de Imagens</h3>
+                </div>
+                <div class="project-description">
+                    Implementação de galeria com imagens responsivas e legendas descritivas.
+                </div>
+                <div class="project-footer">
+                    <a href="d02/desafio002.html" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">03</span>
+                    <h3 class="project-title">Mapa Interativo</h3>
+                </div>
+                <div class="project-description">
+                    Composição de mapa usando imagens segmentadas e elementos de posicionamento.
+                </div>
+                <div class="project-footer">
+                    <a href="d03/desafio003.html" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">04</span>
+                    <h3 class="project-title">Catálogo de Emojis</h3>
+                </div>
+                <div class="project-description">
+                    Listagem organizada de emojis com categorias e descrições semânticas.
+                </div>
+                <div class="project-footer">
+                    <a href="d04/desafio004.html" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">05</span>
+                    <h3 class="project-title">Perfil Social</h3>
+                </div>
+                <div class="project-description">
+                    Página de perfil com links para redes sociais e informações pessoais.
+                </div>
+                <div class="project-footer">
+                    <a href="d05/desafio005.html" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">06</span>
+                    <h3 class="project-title">Glossário de Tags</h3>
+                </div>
+                <div class="project-description">
+                    Demonstração prática do uso da tag &lt;abbr&gt; para definições de termos HTML.
+                </div>
+                <div class="project-footer">
+                    <a href="d06/desafio006.html" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">07</span>
+                    <h3 class="project-title">Imagens Adaptáveis</h3>
+                </div>
+                <div class="project-description">
+                    Implementação de imagens flexíveis que se adaptam a diferentes tamanhos de tela.
+                </div>
+                <div class="project-footer">
+                    <a href="d07/desafio007-imagens-flexiveis.html" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">08</span>
+                    <h3 class="project-title">Sistema de Navegação</h3>
+                </div>
+                <div class="project-description">
+                    Estrutura de navegação entre páginas com estilização consistente.
+                </div>
+                <div class="project-footer">
+                    <a href="d08/desafio008-navegacoes.html" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">09</span>
+                    <h3 class="project-title">Links Contextuais</h3>
+                </div>
+                <div class="project-description">
+                    Exploração avançada do uso de âncoras e links em diferentes contextos.
+                </div>
+                <div class="project-footer">
+                    <a href="d09/index.html" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">10</span>
+                    <h3 class="project-title">Projeto Integrado</h3>
+                </div>
+                <div class="project-description">
+                    Combinação de todos os conceitos aprendidos em um projeto completo.
+                </div>
+                <div class="project-footer">
+                    <a href="d10/index.html" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">11</span>
+                    <h3 class="project-title">Background & Layout</h3>
+                </div>
+                <div class="project-description">
+                    Trabalhando com imagens de fundo e posicionamento avançado de elementos.
+                </div>
+                <div class="project-footer">
+                    <a href="d11/index.html" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">12</span>
+                    <h3 class="project-title">Efeito Parallax</h3>
+                </div>
+                <div class="project-description">
+                    Criação de efeito parallax com imagens de fundo e conteúdo sobreposto.
+                </div>
+                <div class="project-footer">
+                    <a href="d12/index.html" target="_blank" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">13</span>
+                    <h3 class="project-title">Ícones Sociais</h3>
+                </div>
+                <div class="project-description">
+                    Componente de mídias sociais com ícones interativos e efeitos hover.
+                </div>
+                <div class="project-footer">
+                    <a href="d13/index.html" target="_blank" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">14</span>
+                    <h3 class="project-title">Formulário de Login</h3>
+                </div>
+                <div class="project-description">
+                    Tela de login estilizada com validação visual e elementos de interface.
+                </div>
+                <div class="project-footer">
+                    <a href="d14/index.html" target="_blank" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">15</span>
+                    <h3 class="project-title">Animação CSS</h3>
+                </div>
+                <div class="project-description">
+                    Criação de animação de loading usando apenas CSS e keyframes.
+                </div>
+                <div class="project-footer">
+                    <a href="d15/loading.html" class="project-link">Ver Projeto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">16</span>
+                    <h3 class="project-title">Landing Page</h3>
+                </div>
+                <div class="project-description">
+                    Página de destino responsiva com múltiplas seções e call-to-action.
+                </div>
+                <div class="project-footer">
+                    <a href="d16/landing-page.html" class="project-link">Ver Projeto</a>
+                    <span class="status-badge">Em andamento</span>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Desenvolvido com HTML5 e CSS3 &bull; Atualizado em 2025</p>
+        </footer>
+    </div>
 </body>
 </html>
